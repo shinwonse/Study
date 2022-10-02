@@ -1,4 +1,4 @@
-import LinkedList from './LinkedList.js';
+import LinkedList from './linkedList_practice/LinkedList.js';
 
 const linkedList = new LinkedList();
 linkedList.insert(-1, 1);
