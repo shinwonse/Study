@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Model from './models/model';
 import View from './views/view';
 import Controller from './controllers/controller';

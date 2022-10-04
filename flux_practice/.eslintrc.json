@@ -1,7 +1,12 @@
 {
   "env": {
-    "node": true,
-    "es2022": true
+    "browser": true,
+    "es2022": true,
+    "node": true
   },
-  "extends": ["eslint:recommended","plugin:prettier/recommended"]
+  "extends": ["eslint:recommended","plugin:prettier/recommended"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "allowImportExportEverywhere": true
+  }
 }
