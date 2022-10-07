@@ -22,7 +22,6 @@ class LinkedList {
     if (index >= this.length) {
       throw '삽입 길이 초과입니다.'
     }
-    debugger;
     this.length += 1;
     const node = new Node(data);
     let currentNode = this.head;
