@@ -39,4 +39,3 @@ console.time('Performance')
 Promise.all([getDivisors(100000000000000), temp])
   .then((res) => console.log(res))
   .then(() => console.timeEnd('Performance'))
-
